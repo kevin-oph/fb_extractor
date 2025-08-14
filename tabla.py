@@ -40,11 +40,11 @@ def mostrar_tabla(frame_tabla, df, modo="comparador", pagina=0, filas_por_pagina
             if col == "reacciono":
                 if val:
                     val = "Sí"
-                    color = "#FF9800"
+                    color = "#257A0B"
                     txtcolor = COLOR_BLANCO
                 else:
                     val = "No"
-                    color = "#4CAF50"
+                    color = "#FF4830"
                     txtcolor = COLOR_BLANCO
             ctk.CTkLabel(
                 frame_scroll, text=str(val), font=FUENTE_TABLA, width=160,
